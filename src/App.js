@@ -20,8 +20,8 @@ class App extends Component {
 
     no =() => {
         this.setState({
-            top: this.random(window.screen.width),
-            left: this.random(window.screen.height)
+            top: this.random(window.screen.height),
+            left: this.random(window.screen.width)
         })
     };
 
